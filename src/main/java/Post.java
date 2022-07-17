@@ -1,8 +1,9 @@
 public class Post {
-    public String name;
-    public String passport;
-    public String patronymic;
-    public String phone;
-    public String surname;
-    public String subscription;
+    String name;
+    String passport;
+    String patronymic;
+    String phone;
+    String surname;
+    boolean subscription ;
+    FormDate birthday = new FormDate();
 }
